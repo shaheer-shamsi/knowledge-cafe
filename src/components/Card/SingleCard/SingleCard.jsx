@@ -42,7 +42,7 @@ const SingleCard = ({ SingleData, handleMarkRead, handleBookmark }) => {
         </div>
       </div>
       <h1 className="lg:text-3xl text-lg lg:w-[440px] font-bold text-slate-800 ">{title}</h1>
-      <p className="text-slate-700 font-semibold text-sm">#beginner #programming #newBlog</p>
+      <p className="text-slate-700 font-semibold text-sm">#phwebdev7 #beginner #programming #blog #newBlog</p>
       <button
         onClick={() => handleMarkRead(read_time)}
         className="underline text-blue-700 font-semibold opacity-80">
